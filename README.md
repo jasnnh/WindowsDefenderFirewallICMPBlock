@@ -9,5 +9,7 @@ Protocol set is as ICMP, but if you want a specific TCP or UDP port you can set 
 
 ![Screenshot](https://github.com/jasnnh/WindowsDefenderFirewallICMPBlock/blob/main/image16.png)
 
-After configuring and saving the settings your host pc should now block any connection to this host pc on that port.
+After configuring and saving the settings your host pc should now block any connection to this host pc on that port. You can also view the firewall logs if enabled and saving located at "C:\Windows\System32\LogFiles\Firewall\pfirewall.log"
+
+![Screenshot](https://github.com/jasnnh/WindowsDefenderFirewallICMPBlock/blob/main/log.PNG)
 
